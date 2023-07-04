@@ -1,0 +1,34 @@
+.input-block {
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    padding: 5px;
+}
+
+.confirm-block {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    padding: 5px;
+}
+
+.property {
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+.button {
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 5px;
+}
+
+.button:hover {
+    border: 1px solid green;
+}

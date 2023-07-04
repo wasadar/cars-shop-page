@@ -1,0 +1,55 @@
+.car-block {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    padding: 5px;
+}
+
+.property-short {
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 5px;
+    width: 100px;
+}
+
+.property-long {
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 5px;
+    width: 200px;
+}
+
+.dropdown-container {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    z-index: 1;
+}
+
+.dropdown-menu-item {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: white;
+    width: 90px;
+}
+
+.dropdown-menu-item:hover {
+    border: 1px solid green;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    display: block;
+}
